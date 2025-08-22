@@ -36,11 +36,11 @@ This strategy demonstrates **momentum-based entry and exit** using a short-term 
 ## 3. How to Run
 ### 3.1 QuantConnect / Lean
 - Create a new **Python project**.  
-- Copy `src/main.py` into `main.py`.  
+- Copy `main.py` into the project root.  
 - Backtest with your chosen start & end date.  
 
-### 3.2 JoinQuant (聚宽)
-- Copy the code from `src/main.py` into JoinQuant’s research platform.  
+### 3.2 JoinQuant
+- Copy the code from `main.py` into JoinQuant’s research platform.  
 - Run backtest with CSI 300 as benchmark.  
 
 ---
@@ -54,9 +54,10 @@ This strategy demonstrates **momentum-based entry and exit** using a short-term 
 ---
 
 ## 5. Files
-main.py          # Strategy code
-figures.png # Backtest performance chart
-LICENSE              # MIT
+main.py              # Strategy code
+figures/backtest.png # Backtest performance chart
+LICENSE              # MIT License
+
 ---
 
 ## 6. Disclaimer
